@@ -5,7 +5,7 @@ import time
 # DHT11 sensor configuration
 DHT_SENSOR = Adafruit_DHT.DHT11
 DHT_PIN = 4  # Adjust to the GPIO pin you've connected the sensor to
-CLOUD_ENDPOINT = "http://648b-73-231-28-149.ngrok-free.app"  # Local Flask server endpoint
+CLOUD_ENDPOINT = "https://18b8-2601-646-a000-7b40-00-3619.ngrok-free.app"  # Local Flask server endpoint
 
 while True:
     humidity, temperature = Adafruit_DHT.read_retry(DHT_SENSOR, DHT_PIN)
