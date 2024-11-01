@@ -1,3 +1,15 @@
 sudo tar -xvzf ~/Downloads/https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-arm64.tgz -C /usr/local/bin
 
 ngrok config add-authtoken 4oEuxabr8g5ugJOPdSmgAq7xZiR_7pvmiPoyUyxNVzZMMFt2n
+
+sudo apt update
+sudo apt upgrade -y
+sudo apt install python3-pip -y
+pip3 install Adafruit_DHT Flask requests
+
+
+
+
+sudo tar -xvzf ~/Downloads/https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-arm64.tgz -C /usr/local/bin
+
+ngrok config add-authtoken 2oEuxabr8g5ugJOPdSmgAq7xZiR_7pvmiPoyUyxNVzZMMFt2n
